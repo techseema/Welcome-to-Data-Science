@@ -8,4 +8,4 @@ df.info()
 df.describe()
 df.columns
 sns.pairplot(df)
-#sns.heatmap(df.corr(),annot=True)
+sns.heatmap(df.corr(),annot=True)
